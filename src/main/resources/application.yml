@@ -1,0 +1,9 @@
+spring:
+  cloud:
+    stream:
+      function:
+        definition: publishStringMessage
+        autodetect: false
+      bindings:
+        publishStringMessage-out-0:
+          destination: destination
